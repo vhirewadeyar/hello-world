@@ -3,4 +3,7 @@
 
   tasks:
   - name: Initiate ansible playbook to create docker image
-    command: ansible-playbook /opt/k8s/create-simple-devops-image.yml
+     copy:
+	src: /home/ansadmin/jenkins/workspace/job121/webapp.war 
+	dest: /opt/k8s/create-simple-devops-image.yml
+     command: ansible-playbook /opt/k8s/create-simple-devops-image.yml

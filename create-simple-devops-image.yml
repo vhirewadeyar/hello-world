@@ -1,6 +1,5 @@
 ---
 - hosts: k8s-master
-  user: ansadmin
   tasks:
   - name: Initiate ansible playbook to create docker image
     copy: src=/home/ansadmin/jenkins/workspace/job121/webapp.war dest=/opt/k8s/webapp.war

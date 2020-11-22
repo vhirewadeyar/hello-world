@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <form action="action_page.php" method="post">
   <div class="imgcontainer">
     <img src="img_avatar2.png" alt="Avatar" class="avatar">
@@ -21,3 +22,7 @@
     <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
 </form>
+=======
+<div contextmenu="my-context-menu">Right click here!</div>
+<menu id="my-context-menu" type="context">My Menu Item!!!!</menu>
+>>>>>>> 37be60472598b97fb60eea5e952e3301f85540ef
